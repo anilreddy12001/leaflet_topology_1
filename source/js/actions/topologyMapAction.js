@@ -130,17 +130,43 @@ export const getTopologyData = (axiosdata, typeId, props) => {
     return function (dispatch) {
   
 var directory= require('../helpers/response.json');
-var response_UIV= require('../helpers/ims_levelorder.json');
+var response_UIV= require('../helpers/ServerTrail_with_level_order.json');
+var rootTerminations=[];
+var UIVDirectory={};
+//var UIV_diagraphModel=response_UIV.diagraphModel.nodes;
+Object.keys(response_UIV.diagraphModel.edges).forEach((item, index) => {
+    if(response_UIV.diagraphModel.edges[item].relations[0]=='USES'){
+        console.log("nodes connected to edge: ", response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes['globalName'], " to: ",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes['globalName']);
+        if(response_UIV.diagraphModel.edges[item].direction=='OUTGOING' && response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from]._level==0){
+            //root path and terminations found..
+            //if direction is outgoing and relationship is "USES" and level =0, it is root path.
+            console.log("root path: ", response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes['globalName']);
+            rootTerminations.push(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes['id']);
+            
+            UIVDirectory[response_UIV.diagraphModel.edges[item].from]={type: "Path", name: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes['globalName'], id: response_UIV.diagraphModel.edges[item].from, terminations:rootTerminations, ePoints:rootTerminations, state:{}, cNodes:[], detail: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes
+        }
+        UIVDirectory.rootPathID=response_UIV.diagraphModel.edges[item].from;
+        UIVDirectory[response_UIV.diagraphModel.edges[item].to]={type: "Equipment", name: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes['globalName'], id: response_UIV.diagraphModel.edges[item].to, terminations:[], ePoints:[], state:{}, cNodes:[], detail: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes
+        }
+        
 
-var UIV_diagraphModel=response_UIV.diagraphModel;
-Object.keys(UIV_diagraphModel).forEach((item, index) => {
-        console.log("items inside diagraphModel: ", item, index);
+    }
+
+    }
 		
-		
+		// Object.keys(response_UIV.diagraphModel.nodes).forEach((item2, index) => {
+        //     console.log("items inside diagraphModel edges: ", item, index);
+
+
+
+
+        // })
 		
 		
 		
     })
+    //directory=UIVDirectory;
+    console.log('root terminations: ',rootTerminations, 'UIVDirectory: ', UIVDirectory);
 
 
 
@@ -237,11 +263,11 @@ Object.keys(UIV_diagraphModel).forEach((item, index) => {
                     //     }
                     // }
         var customHookObject ={};
-            var rootPathIdValue ="fb893929-b3ec-11eb-84c1-0242ac14010b";
+            var rootPathIdValue =UIVDirectory.rootPathID;//"fb893929-b3ec-11eb-84c1-0242ac14010b";
                     // console.log(JSON.stringify(directory) + "Directory data******************** ");
                     dispatch({
                         type: "TOPOLOGY_MAP_GET_DATA",
-                        payload: { rootPathID: rootPathIdValue, data: directory, customHookData: customHookObject }
+                        payload: { rootPathID: rootPathIdValue, data: UIVDirectory, customHookData: customHookObject }
                     });
               //  });
             // } catch (err) {

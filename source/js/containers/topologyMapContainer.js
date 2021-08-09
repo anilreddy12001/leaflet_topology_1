@@ -852,7 +852,7 @@
          var result = {
              name: entity.name,
              id: entity.id,
-             type: entity.type,
+             type: entity.detail['@type'],
              priority: 999
          }
  

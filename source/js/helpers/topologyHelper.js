@@ -120,7 +120,7 @@ export default class topologyMapHelper {
                     props.customHookData[i].entityType = entityType;
                     props.customHookData[i].directory = props.data;
                     if (props.customHookData[i].EntitiesKeys && props.customHookData[i].EntitiesKeys.indexOf(itemID) != -1 && entityType == props.customHookData[i].EntityType) {
-                        if (props.customHookData[i].DisplayName) {
+                        if (props.customHookData[i].displayName) {
                             contextmenuitems.push({
                                 text: props.customHookData[i].DisplayName,
                                 callback: showCustomHook.bind(event, props.customHookData[i])
@@ -133,9 +133,9 @@ export default class topologyMapHelper {
                         }
                     } else if (!props.customHookData[i].EntitiesKeys && (entityType == props.customHookData[i].EntityType)) {
 
-                        if (props.customHookData[i].DisplayName) {
+                        if (props.customHookData[i].displayName) {
                             contextmenuitems.push({
-                                text: props.customHookData[i].DisplayName,
+                                text: props.customHookData[i].displayName,
                                 callback: showCustomHook.bind(event, props.customHookData[i])
                             });
                         } else {
@@ -1383,7 +1383,7 @@ console.log("path inside drawpathsv1: ",path);
                 attributes: {'font-size': '12'}})
         }
         else{
-        polyline.setText(path.detail.DisplayName, {repeat: false, center: true, offset: -8,
+        polyline.setText(path.detail.displayName, {repeat: false, center: true, offset: -8,
             attributes: {'font-size': '12'}})
 
         }
@@ -1690,7 +1690,7 @@ var stateObjFromStatusPanelColor=stateObjFromStatusPanel?stateObjFromStatusPanel
     <div class="modalHeader">
 <div class="modalHeaderContent">
 <span class=`+itemFromDirectory.detail.UUID+`></span>
-<strong class="itemName"></strong><div class="itemsCount">`+itemFromDirectory.detail.DisplayName.slice(0, 11) +`</div><div class="statusInfo"><svg width="10" height="10" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="`+stateObjFromStatusPanelColor+`"></circle></svg><div class="name">`+stateObjFromStatusPanelText+`</div></div></div><div class="modalClose">
+<strong class="itemName"></strong><div class="itemsCount">`+itemFromDirectory.detail.displayName.slice(0, 11) +`</div><div class="statusInfo"><svg width="10" height="10" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="`+stateObjFromStatusPanelColor+`"></circle></svg><div class="name">`+stateObjFromStatusPanelText+`</div></div></div><div class="modalClose">
 </div>
 </div>
 </div>
@@ -1716,7 +1716,7 @@ isAlarm: Object.keys(stateToDisplay).filter((x) => (stateToDisplay[x][0] && stat
                 <div class="modalHeader">
     <div class="modalHeaderContent">
     <span class=`+itemFromDirectory.detail.UUID+`></span>
-    <strong class="itemName">EQUIPMENT</strong><div class="itemsCount">`+itemFromDirectory.detail.DisplayName.slice(0, 11) +`</div><div class="statusInfo"><svg width="10" height="10" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="`+stateObjFromStatusPanelColor+`"></circle></svg><div class="name">`+stateObjFromStatusPanelText+`</div></div></div><div class="modalClose">
+    <strong class="itemName">`+itemFromDirectory.detail['@type']+`</strong><div class="itemsCount">`+itemFromDirectory.detail.displayName.slice(0, 11) +`</div><div class="statusInfo"><svg width="10" height="10" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="`+stateObjFromStatusPanelColor+`"></circle></svg><div class="name">`+stateObjFromStatusPanelText+`</div></div></div><div class="modalClose">
     </div>
     </div>
     </div>
