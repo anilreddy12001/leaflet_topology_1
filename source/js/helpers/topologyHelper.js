@@ -1024,6 +1024,7 @@ for(var j=0; j<combination_values.length; j++){
         var rootPath = directory[topologyLayer.paths[0].id];
 
         if ((rootPath && rootPath.noRootEquipment) || (rootPath.terminations.length!=2)) {
+            console.log("rootPath:", rootPath);
             handleCustomError({
                 custom_error: {
                     name: 'Path is not terminated on root equipment',
