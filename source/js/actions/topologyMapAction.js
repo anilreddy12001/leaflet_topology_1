@@ -212,7 +212,7 @@ if(UIVDirectory[response_UIV.diagraphModel.edges[item].from].type=='Path' && UIV
     
 
 })
-//trim cnodes which are not paths:
+//trim(delete) cNodes which are not paths:
 Object.keys(UIVDirectory).forEach((item, index) => {
 console.log(item);
 if(item!='rootPathID'){
@@ -224,7 +224,10 @@ if(item!='rootPathID'){
 }
    
 })
+//Order cNodes
 
+
+//Add state data to Nodes:
 
 
 
