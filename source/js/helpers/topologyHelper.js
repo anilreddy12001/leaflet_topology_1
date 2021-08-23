@@ -576,7 +576,7 @@ export default class topologyMapHelper {
     }
 
     updateLayers(layers, directory, stateToDisplay, drawMarkerV1, typeid) {
-        console.log("inside updatelayers..", layer.options.type);
+        //console.log("inside updatelayers..", layer.options.type);
        
         if (typeid == '2') {
             if (!Array.isArray(layers)) {
