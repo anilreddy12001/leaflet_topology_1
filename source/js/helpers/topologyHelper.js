@@ -1697,8 +1697,9 @@ var stateObjFromStatusPanelColor=stateObjFromStatusPanel?stateObjFromStatusPanel
 </div>
 </div>
 `,
-iconSize: type == "gMarker"? [10,10]:[48, 48],
+iconSize: type == "gMarker"? [10,10]:[98, 48],
 stateIconColor: stateBadge ? stateBadge.color : "#acacac",
+iconAnchor:[60, 60],
 isAlarm: Object.keys(stateToDisplay).filter((x) => (stateToDisplay[x][0] && stateToDisplay[x][0].badge)).length > 0 ? true : false
    
 
@@ -1724,6 +1725,7 @@ isAlarm: Object.keys(stateToDisplay).filter((x) => (stateToDisplay[x][0] && stat
     </div>
     `,
     iconSize: type == "gMarker"? [10,10]:[48, 48],
+    iconAnchor:[25, 25],
     stateIconColor: stateBadge ? stateBadge.color : "#acacac",
     isAlarm: Object.keys(stateToDisplay).filter((x) => (stateToDisplay[x][0] && stateToDisplay[x][0].badge)).length > 0 ? true : false
                
