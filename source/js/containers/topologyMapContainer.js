@@ -2151,6 +2151,7 @@
                  // let rootPathLinkID = "link_" + topologyMapHelper.directory[rootPathID].terminations.join("#");
                  // this.shrinkDirectory(topologyMapHelper, [rootPathID], 1)
                  let rootPathLinkID = topologyMapHelper.directory[rootPathID].id;
+                 console.log(topologyMapHelper.directory, "rootpath before calling calculatelayerdepth: ",rootPathLinkID);
                  topologyMapHelper.maxLayer = this.calculateLayerDepthV1(topologyMapHelper.directory, rootPathLinkID, 1)
                  this.changeSeekBar(1, topologyMapHelper.directory[rootPathLinkID].layerDepth + 1);
  
