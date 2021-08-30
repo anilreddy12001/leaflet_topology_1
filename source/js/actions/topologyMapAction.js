@@ -145,6 +145,7 @@ export const getTopologyData = (axiosdata, typeId, props) => {
 
         var rootTerminations = [];
         var UIVDirectory = {};
+        var deviceMapping={};
         console.log(response_UIV);
         //var UIV_diagraphModel=response_UIV.diagraphModel.nodes;
         //logic: for each edge, find the nodes that will be the root path.
@@ -174,7 +175,7 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                         type: "Path",
                         name: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes['globalName'],
                         id: response_UIV.diagraphModel.edges[item].from,
-                        terminations: rootTerminations,
+                        terminations: [],
                         ePoints: rootTerminations,
                         state: {},
                         cNodes: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].child,
@@ -214,7 +215,6 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                         level=''; Object.keys(response_UIV.diagraphView.depictionLevel).forEach((item2, innerIndex) => { if(response_UIV.diagraphView.depictionLevel[item2].indexOf(response_UIV.diagraphModel.edges[item].from)!=-1){level= innerIndex}});
                         if (response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from]._type == "cssLink") {
 
-                            
 
                             UIVDirectory[response_UIV.diagraphModel.edges[item].from] = {
                                 type: "Path",
@@ -228,6 +228,13 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                                 layer: level,
                                 _type: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from]._type
                             }
+
+
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.CreatedByUserId  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.createdBy;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.AdministrativeState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.administrativeState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.OperationalState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.operationalState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.AORAlarmState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.alarmSeverity;
+
                         } else {
                             UIVDirectory[response_UIV.diagraphModel.edges[item].from] = {
                                 type: "Equipment",
@@ -241,6 +248,11 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                                 layer: level,
                                 _type: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from]._type
                             }
+
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.CreatedByUserId  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.createdBy;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.AdministrativeState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.administrativeState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.OperationalState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.operationalState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.AORAlarmState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.alarmSeverity;
                         }
                     }
                     if (!UIVDirectory[response_UIV.diagraphModel.edges[item].to]) {
@@ -263,6 +275,14 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                                 layer: level,
                                 _type: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type
                             }
+
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.CreatedByUserId  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.createdBy;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AdministrativeState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.administrativeState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.OperationalState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.operationalState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AORAlarmState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.alarmSeverity;
+
+
+                            
                         } else {
                             console.log("inside", response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type, ' :: ', response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes['id'], 'name ::', response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes['globalName']);
                             UIVDirectory[response_UIV.diagraphModel.edges[item].to] = {
@@ -277,6 +297,10 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                                 layer: level,
                                 _type: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type
                             }
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.CreatedByUserId  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.createdBy;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AdministrativeState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.administrativeState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.OperationalState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.operationalState;
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AORAlarmState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.alarmSeverity;
                         }
                     }
 
@@ -288,46 +312,50 @@ export const getTopologyData = (axiosdata, typeId, props) => {
 
             console.log('root terminations: ', rootTerminations, 'UIVDirectory: ', UIVDirectory);
 
-            //set terminations and ePoints for paths other than the root path:
+            //set ePoints for paths other than the root path:
             Object.keys(response_UIV.diagraphModel.edges).forEach((item, index) => {
-                if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].type == 'Path' && UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.length < 2) {
+                if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].type == 'Path' && UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.length < 2) {
                     if (response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from]._type == "cssPort") {
-                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.length < 1) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.push(response_UIV.diagraphModel.edges[item].from);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations;
-                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations[0] != response_UIV.diagraphModel.edges[item].from) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.push(response_UIV.diagraphModel.edges[item].from);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations;
+                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.length < 1) {
+                            //map path ids with device details:
+                            
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.push(response_UIV.diagraphModel.edges[item].from);
+
+                           // UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations =deviceMapping[response_UIV.diagraphModel.edges[item].to];// UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations;
+                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints[0] != response_UIV.diagraphModel.edges[item].from) {
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.push(response_UIV.diagraphModel.edges[item].from);
+                            //UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations;
                         }
 
                     } else if (response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type == "cssPort") {
-                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.length < 1) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations.push(response_UIV.diagraphModel.edges[item].to);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations;
-                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations[0] != response_UIV.diagraphModel.edges[item].to) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations.push(response_UIV.diagraphModel.edges[item].to);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations;
+                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.length < 1) {
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints.push(response_UIV.diagraphModel.edges[item].to);
+                            //UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints;
+                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints[0] != response_UIV.diagraphModel.edges[item].to) {
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints.push(response_UIV.diagraphModel.edges[item].to);
+                            //UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints;
                         }
                     }
                 }
-                if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].type == 'Path' && UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations.length < 2) {
+                if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].type == 'Path' && UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints.length < 2) {
                     if (response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type == "cssPort") {
-                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations.length < 1) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations.push(response_UIV.diagraphModel.edges[item].to);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations;
-                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations[0] != response_UIV.diagraphModel.edges[item].to) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations.push(response_UIV.diagraphModel.edges[item].to);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations;
+                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints.length < 1) {
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints.push(response_UIV.diagraphModel.edges[item].to);
+                            //UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations;
+                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints[0] != response_UIV.diagraphModel.edges[item].to) {
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints.push(response_UIV.diagraphModel.edges[item].to);
+
+                            //UIVDirectory[response_UIV.diagraphModel.edges[item].from].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].from].terminations;
 
                         }
 
                     } else if (response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from]._type == "cssPort") {
-                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.length < 1) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.push(response_UIV.diagraphModel.edges[item].from);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations;
-                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations[0] != response_UIV.diagraphModel.edges[item].from) {
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations.push(response_UIV.diagraphModel.edges[item].from);
-                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations;
+                        if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.length < 1) {
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.push(response_UIV.diagraphModel.edges[item].from);
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints;
+                        } else if (UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints[0] != response_UIV.diagraphModel.edges[item].from) {
+                            UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints.push(response_UIV.diagraphModel.edges[item].from);
+                            //UIVDirectory[response_UIV.diagraphModel.edges[item].to].ePoints = UIVDirectory[response_UIV.diagraphModel.edges[item].to].terminations;
                         }
                     }
                 }
@@ -335,6 +363,56 @@ export const getTopologyData = (axiosdata, typeId, props) => {
 
 
             })
+
+//add device details for each of the ePoints of paths:
+Object.keys(UIVDirectory).forEach((item, index) => {
+console.log("item inside uivdirectory:: ",item, "UIVDirectory[item].ePoints:: ",UIVDirectory[item].ePoints);
+    if(UIVDirectory[item].ePoints && UIVDirectory[item].ePoints.length==2 && response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent.length>0){
+        console.log('parent array:',response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent);
+        Object.keys(response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent).forEach((item3, parentIndex)=> {
+            console.log('parent array inside loop:',response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3],'@type:',response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]].attributes['@type'] );
+            if(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]].attributes['@type']=='physicalDevice'){
+console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]]);
+UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]);
+            }
+            else if(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]].parent[0] && response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]].parent[0]].attributes['@type']=='physicalDevice' ){
+                console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]].parent[0]]);
+                //push parent into the terminations array.                
+                UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent[item3]].parent[0]);
+            }
+            else{
+                //if no device details were found, copy the ePoints array to terminations.
+                UIVDirectory[item].terminations=UIVDirectory[item].ePoints;
+            }
+        })
+       // deviceMapping[item]=response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent;
+    }
+    if(UIVDirectory[item].ePoints && UIVDirectory[item].ePoints.length==2 && response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent.length>0){
+        console.log('parent array:',response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent);
+        Object.keys(response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent).forEach((item3, parentIndex)=> {
+            console.log('parent array inside loop:',response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3],'@type:',response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].attributes['@type'] );
+            if(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].attributes['@type']=='physicalDevice'){
+console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]]);
+UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]);
+            }
+            else if(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0] && response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0]].attributes['@type']=='physicalDevice' ){
+                console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0]]);
+                //push parent into the terminations array.                
+                UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0]);
+            }
+            else{
+                //if no device details were found, copy the ePoints array to terminations.
+                UIVDirectory[item].terminations=UIVDirectory[item].ePoints;
+            }
+        })
+        
+       // deviceMapping[item]=response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent;
+    }
+
+})
+
+//
+
             //trim(delete) cNodes which are not paths:
             Object.keys(UIVDirectory).forEach((item, index) => {
                 console.log(item);
@@ -368,7 +446,8 @@ export const getTopologyData = (axiosdata, typeId, props) => {
             //     }
 
             //     })
-            console.log("response_UIV", response_UIV);
+            console.log("response_UIV:: ", response_UIV);
+            console.log("UIVDirectory:: ", UIVDirectory);
             if (response_UIV.diagraphView.depictionLevel[1].length == 1) {
                 UIVDirectory[response_UIV.diagraphView.depictionLevel[1][0]].terminations.reverse();
             }
