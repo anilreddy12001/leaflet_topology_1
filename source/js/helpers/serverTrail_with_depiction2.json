@@ -1,0 +1,3691 @@
+{
+    "diagraphModel": {
+        "nodes": {
+            "59f97d38-0158-4d40-aef6-476f6b70445c": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 0,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "trail",
+                    "globalName": "serverTrail",
+                    "collectionTime": null,
+                    "displayName": "serverTrail",
+                    "@type": "trail",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "context": null,
+                    "href": "/uiv/base/21/api/trail/serverTrail",
+                    "id": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "containingLogicalDevice": null,
+                    "localName": "serverTrail",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssLink",
+                "child": [
+                    "8e683f26-df4d-4769-aa55-df108073a5af",
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                    "b428d00d-4540-4d2e-9821-fe1c11efdb9e"
+                ],
+                "parent": [],
+                "sibling": [],
+                "attributeview": {
+                    "name": "serverTrail",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "serverTrail",
+                            "globalName": "serverTrail",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "trail",
+                            "collectionTime": null,
+                            "displayName": "serverTrail",
+                            "@type": "trail",
+                            "description": null,
+                            "usageState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "context": null,
+                            "id": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "containingLogicalDevice": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "connection",
+                    "globalName": "multiplexSection",
+                    "collectionTime": null,
+                    "displayName": "multiplexSection",
+                    "@type": "connection",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "context": null,
+                    "href": "/uiv/base/21/api/connection/multiplexSection",
+                    "id": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                    "place": null,
+                    "_version": "3",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "containingLogicalDevice": null,
+                    "localName": "multiplexSection",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssConnection",
+                "child": [
+                    "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                    "8e683f26-df4d-4769-aa55-df108073a5af",
+                    "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                    "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                    "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                    "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                    "b428d00d-4540-4d2e-9821-fe1c11efdb9e"
+                ],
+                "parent": [
+                    "59f97d38-0158-4d40-aef6-476f6b70445c"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "multiplexSection",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "multiplexSection",
+                            "globalName": "multiplexSection",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "connection",
+                            "collectionTime": null,
+                            "displayName": "multiplexSection",
+                            "@type": "connection",
+                            "description": null,
+                            "usageState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "context": null,
+                            "id": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                            "place": null,
+                            "_version": "3",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "containingLogicalDevice": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalPort",
+                    "globalName": "SDH1port1",
+                    "collectionTime": null,
+                    "ifType": null,
+                    "displayName": "SDH1port1",
+                    "@type": "physicalPort",
+                    "description": null,
+                    "updatedDate": "",
+                    "ifTypeOther": null,
+                    "portNumber": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalPort/SDH1port1",
+                    "id": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                    "place": null,
+                    "_version": "3",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "SDH1port1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPort",
+                "child": [],
+                "parent": [
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                    "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                    "59f97d38-0158-4d40-aef6-476f6b70445c"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "SDH1port1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "SDH1port1",
+                            "globalName": "SDH1port1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalPort",
+                            "collectionTime": null,
+                            "ifType": null,
+                            "displayName": "SDH1port1",
+                            "@type": "physicalPort",
+                            "description": null,
+                            "ifTypeOther": null,
+                            "portNumber": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                            "place": null,
+                            "_version": "3",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "d5cabd1d-f06a-48b3-a17c-fe637354c7c4": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalComponent",
+                    "globalName": "Card1",
+                    "collectionTime": null,
+                    "displayName": "Card1",
+                    "@type": "physicalComponent",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalComponent/Card1",
+                    "id": "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Card1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPhysicalComponent",
+                "child": [
+                    "bffd450e-6981-41d7-a37f-bba31128c8be"
+                ],
+                "parent": [
+                    "15d030d1-158e-47cd-b50b-9bcaf2b8e735"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Card1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Card1",
+                            "globalName": "Card1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalComponent",
+                            "collectionTime": null,
+                            "displayName": "Card1",
+                            "@type": "physicalComponent",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "bffd450e-6981-41d7-a37f-bba31128c8be": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalPort",
+                    "globalName": "ODF1port1",
+                    "collectionTime": null,
+                    "ifType": null,
+                    "displayName": "ODF1port1",
+                    "@type": "physicalPort",
+                    "description": null,
+                    "updatedDate": "",
+                    "ifTypeOther": null,
+                    "portNumber": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalPort/ODF1port1",
+                    "id": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                    "place": null,
+                    "_version": "3",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "ODF1port1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPort",
+                "child": [],
+                "parent": [
+                    "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                    "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                    "d5cabd1d-f06a-48b3-a17c-fe637354c7c4"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "ODF1port1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "ODF1port1",
+                            "globalName": "ODF1port1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalPort",
+                            "collectionTime": null,
+                            "ifType": null,
+                            "displayName": "ODF1port1",
+                            "@type": "physicalPort",
+                            "description": null,
+                            "ifTypeOther": null,
+                            "portNumber": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                            "place": null,
+                            "_version": "3",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "8987971f-be37-4ce3-ac10-db19af700498": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalPort",
+                    "globalName": "ODF1port2",
+                    "collectionTime": null,
+                    "ifType": null,
+                    "displayName": "ODF1port2",
+                    "@type": "physicalPort",
+                    "description": null,
+                    "updatedDate": "",
+                    "ifTypeOther": null,
+                    "portNumber": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalPort/ODF1port2",
+                    "id": "8987971f-be37-4ce3-ac10-db19af700498",
+                    "place": null,
+                    "_version": "3",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "ODF1port2",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPort",
+                "child": [],
+                "parent": [
+                    "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                    "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                    "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "ODF1port2",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "ODF1port2",
+                            "globalName": "ODF1port2",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalPort",
+                            "collectionTime": null,
+                            "ifType": null,
+                            "displayName": "ODF1port2",
+                            "@type": "physicalPort",
+                            "description": null,
+                            "ifTypeOther": null,
+                            "portNumber": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "8987971f-be37-4ce3-ac10-db19af700498",
+                            "place": null,
+                            "_version": "3",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 2,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalLink",
+                    "globalName": "Crossconnect1",
+                    "collectionTime": null,
+                    "displayName": "Crossconnect1",
+                    "physicalLinkTypeOther": null,
+                    "@type": "physicalLink",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalLink/Crossconnect1",
+                    "id": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "physicalLinkType": null,
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Crossconnect1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssLink",
+                "child": [
+                    "8987971f-be37-4ce3-ac10-db19af700498",
+                    "bffd450e-6981-41d7-a37f-bba31128c8be"
+                ],
+                "parent": [
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Crossconnect1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Crossconnect1",
+                            "globalName": "Crossconnect1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalLink",
+                            "collectionTime": null,
+                            "displayName": "Crossconnect1",
+                            "physicalLinkTypeOther": null,
+                            "@type": "physicalLink",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "physicalLinkType": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "85d7fa54-9699-4e25-be69-4f35850ec163": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalComponent",
+                    "globalName": "Card3",
+                    "collectionTime": null,
+                    "displayName": "Card3",
+                    "@type": "physicalComponent",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalComponent/Card3",
+                    "id": "85d7fa54-9699-4e25-be69-4f35850ec163",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Card3",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPhysicalComponent",
+                "child": [
+                    "91b41019-54a8-4700-9d26-6f652342e12a"
+                ],
+                "parent": [
+                    "f7302042-70a2-48d7-b203-e1618ad560cd"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Card3",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Card3",
+                            "globalName": "Card3",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalComponent",
+                            "collectionTime": null,
+                            "displayName": "Card3",
+                            "@type": "physicalComponent",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "85d7fa54-9699-4e25-be69-4f35850ec163",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 2,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalLink",
+                    "globalName": "Leadset2",
+                    "collectionTime": null,
+                    "displayName": "Leadset2",
+                    "physicalLinkTypeOther": null,
+                    "@type": "physicalLink",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalLink/Leadset2",
+                    "id": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "physicalLinkType": null,
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Leadset2",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssLink",
+                "child": [
+                    "8e683f26-df4d-4769-aa55-df108073a5af",
+                    "30f08fe6-1d22-4e43-a387-049d7e1c4599"
+                ],
+                "parent": [
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Leadset2",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Leadset2",
+                            "globalName": "Leadset2",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalLink",
+                            "collectionTime": null,
+                            "displayName": "Leadset2",
+                            "physicalLinkTypeOther": null,
+                            "@type": "physicalLink",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "physicalLinkType": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "8e683f26-df4d-4769-aa55-df108073a5af": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalPort",
+                    "globalName": "SDH2port1",
+                    "collectionTime": null,
+                    "ifType": null,
+                    "displayName": "SDH2port1",
+                    "@type": "physicalPort",
+                    "description": null,
+                    "updatedDate": "",
+                    "ifTypeOther": null,
+                    "portNumber": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalPort/SDH2port1",
+                    "id": "8e683f26-df4d-4769-aa55-df108073a5af",
+                    "place": null,
+                    "_version": "3",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "SDH2port1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPort",
+                "child": [],
+                "parent": [
+                    "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                    "59f97d38-0158-4d40-aef6-476f6b70445c"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "SDH2port1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "SDH2port1",
+                            "globalName": "SDH2port1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalPort",
+                            "collectionTime": null,
+                            "ifType": null,
+                            "displayName": "SDH2port1",
+                            "@type": "physicalPort",
+                            "description": null,
+                            "ifTypeOther": null,
+                            "portNumber": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "8e683f26-df4d-4769-aa55-df108073a5af",
+                            "place": null,
+                            "_version": "3",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "30f08fe6-1d22-4e43-a387-049d7e1c4599": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalPort",
+                    "globalName": "ODF2port2",
+                    "collectionTime": null,
+                    "ifType": null,
+                    "displayName": "ODF2port2",
+                    "@type": "physicalPort",
+                    "description": null,
+                    "updatedDate": "",
+                    "ifTypeOther": null,
+                    "portNumber": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalPort/ODF2port2",
+                    "id": "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                    "place": null,
+                    "_version": "3",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "ODF2port2",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPort",
+                "child": [],
+                "parent": [
+                    "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                    "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                    "91aacf2b-d0e8-4989-afd2-7f972bea8bef"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "ODF2port2",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "ODF2port2",
+                            "globalName": "ODF2port2",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalPort",
+                            "collectionTime": null,
+                            "ifType": null,
+                            "displayName": "ODF2port2",
+                            "@type": "physicalPort",
+                            "description": null,
+                            "ifTypeOther": null,
+                            "portNumber": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                            "place": null,
+                            "_version": "3",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "91b41019-54a8-4700-9d26-6f652342e12a": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalPort",
+                    "globalName": "ODF2port1",
+                    "collectionTime": null,
+                    "ifType": null,
+                    "displayName": "ODF2port1",
+                    "@type": "physicalPort",
+                    "description": null,
+                    "updatedDate": "",
+                    "ifTypeOther": null,
+                    "portNumber": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalPort/ODF2port1",
+                    "id": "91b41019-54a8-4700-9d26-6f652342e12a",
+                    "place": null,
+                    "_version": "3",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "ODF2port1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPort",
+                "child": [],
+                "parent": [
+                    "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                    "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                    "85d7fa54-9699-4e25-be69-4f35850ec163"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "ODF2port1",
+                    "summary": {
+                        "kind": null
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "ODF2port1",
+                            "globalName": "ODF2port1",
+                            "kind": null
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalPort",
+                            "collectionTime": null,
+                            "ifType": null,
+                            "displayName": "ODF2port1",
+                            "@type": "physicalPort",
+                            "description": null,
+                            "ifTypeOther": null,
+                            "portNumber": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "91b41019-54a8-4700-9d26-6f652342e12a",
+                            "place": null,
+                            "_version": "3",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 2,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalLink",
+                    "globalName": "Crossconnect2",
+                    "collectionTime": null,
+                    "displayName": "Crossconnect2",
+                    "physicalLinkTypeOther": null,
+                    "@type": "physicalLink",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalLink/Crossconnect2",
+                    "id": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "physicalLinkType": null,
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Crossconnect2",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssLink",
+                "child": [
+                    "91b41019-54a8-4700-9d26-6f652342e12a",
+                    "30f08fe6-1d22-4e43-a387-049d7e1c4599"
+                ],
+                "parent": [
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Crossconnect2",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Crossconnect2",
+                            "globalName": "Crossconnect2",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalLink",
+                            "collectionTime": null,
+                            "displayName": "Crossconnect2",
+                            "physicalLinkTypeOther": null,
+                            "@type": "physicalLink",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "physicalLinkType": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "91aacf2b-d0e8-4989-afd2-7f972bea8bef": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalComponent",
+                    "globalName": "Card4",
+                    "collectionTime": null,
+                    "displayName": "Card4",
+                    "@type": "physicalComponent",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalComponent/Card4",
+                    "id": "91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Card4",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPhysicalComponent",
+                "child": [
+                    "30f08fe6-1d22-4e43-a387-049d7e1c4599"
+                ],
+                "parent": [
+                    "f7302042-70a2-48d7-b203-e1618ad560cd"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Card4",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Card4",
+                            "globalName": "Card4",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalComponent",
+                            "collectionTime": null,
+                            "displayName": "Card4",
+                            "@type": "physicalComponent",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "f7302042-70a2-48d7-b203-e1618ad560cd": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalDevice",
+                    "globalName": "ODF2",
+                    "collectionTime": null,
+                    "displayName": "ODF2",
+                    "@type": "physicalDevice",
+                    "description": null,
+                    "updatedDate": "",
+                    "operatingSystem": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalDevice/ODF2",
+                    "id": "f7302042-70a2-48d7-b203-e1618ad560cd",
+                    "place": null,
+                    "_version": "1",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "containingLogicalDevice": null,
+                    "localName": "ODF2",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPhysicalComponent",
+                "child": [
+                    "91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+                    "85d7fa54-9699-4e25-be69-4f35850ec163"
+                ],
+                "parent": [],
+                "sibling": [],
+                "attributeview": {
+                    "name": "ODF2",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "ODF2",
+                            "globalName": "ODF2",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalDevice",
+                            "collectionTime": null,
+                            "displayName": "ODF2",
+                            "@type": "physicalDevice",
+                            "description": null,
+                            "operatingSystem": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "f7302042-70a2-48d7-b203-e1618ad560cd",
+                            "place": null,
+                            "_version": "1",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "containingLogicalDevice": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "c32c450a-18d2-4a83-bdeb-24370242f76d": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 2,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalLink",
+                    "globalName": "Physicallink1",
+                    "collectionTime": null,
+                    "displayName": "Physicallink1",
+                    "physicalLinkTypeOther": null,
+                    "@type": "physicalLink",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalLink/Physicallink1",
+                    "id": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "physicalLinkType": null,
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Physicallink1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssLink",
+                "child": [
+                    "8987971f-be37-4ce3-ac10-db19af700498",
+                    "91b41019-54a8-4700-9d26-6f652342e12a"
+                ],
+                "parent": [
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Physicallink1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Physicallink1",
+                            "globalName": "Physicallink1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalLink",
+                            "collectionTime": null,
+                            "displayName": "Physicallink1",
+                            "physicalLinkTypeOther": null,
+                            "@type": "physicalLink",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "physicalLinkType": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalComponent",
+                    "globalName": "Card2",
+                    "collectionTime": null,
+                    "displayName": "Card2",
+                    "@type": "physicalComponent",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalComponent/Card2",
+                    "id": "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "kind": "serverTrailGroup",
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Card2",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPhysicalComponent",
+                "child": [
+                    "8987971f-be37-4ce3-ac10-db19af700498"
+                ],
+                "parent": [
+                    "15d030d1-158e-47cd-b50b-9bcaf2b8e735"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Card2",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Card2",
+                            "globalName": "Card2",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalComponent",
+                            "collectionTime": null,
+                            "displayName": "Card2",
+                            "@type": "physicalComponent",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "15d030d1-158e-47cd-b50b-9bcaf2b8e735": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": -1,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalDevice",
+                    "globalName": "ODF1",
+                    "collectionTime": null,
+                    "displayName": "ODF1",
+                    "@type": "physicalDevice",
+                    "description": null,
+                    "updatedDate": "",
+                    "operatingSystem": null,
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalDevice/ODF1",
+                    "id": "15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+                    "place": null,
+                    "_version": "1",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "containingLogicalDevice": null,
+                    "localName": "ODF1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssPhysicalComponent",
+                "child": [
+                    "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+                    "d5cabd1d-f06a-48b3-a17c-fe637354c7c4"
+                ],
+                "parent": [],
+                "sibling": [],
+                "attributeview": {
+                    "name": "ODF1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "ODF1",
+                            "globalName": "ODF1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalDevice",
+                            "collectionTime": null,
+                            "displayName": "ODF1",
+                            "@type": "physicalDevice",
+                            "description": null,
+                            "operatingSystem": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+                            "place": null,
+                            "_version": "1",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "containingLogicalDevice": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            },
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe": {
+                "collapse": false,
+                "_classifiers": null,
+                "_level": 2,
+                "_order": 0,
+                "attributes": {
+                    "@referredType": "physicalLink",
+                    "globalName": "Leadset1",
+                    "collectionTime": null,
+                    "displayName": "Leadset1",
+                    "physicalLinkTypeOther": null,
+                    "@type": "physicalLink",
+                    "description": null,
+                    "updatedDate": "",
+                    "usageState": null,
+                    "powerState": null,
+                    "owningServiceConsumer": null,
+                    "administrativeState": null,
+                    "vendor": null,
+                    "context": null,
+                    "model": null,
+                    "href": "/uiv/base/21/api/physicalLink/Leadset1",
+                    "id": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                    "place": null,
+                    "_version": "2",
+                    "owningCustomer": null,
+                    "alarmSeverity": null,
+                    "lifecycleState": null,
+                    "updatedBy": "cp0665ns01.admin",
+                    "schemaVersion": "0",
+                    "serialNumber": null,
+                    "containingDevice": null,
+                    "kind": "serverTrailGroup",
+                    "physicalLinkType": null,
+                    "containing": null,
+                    "reconSource": null,
+                    "discoveredName": null,
+                    "version": null,
+                    "localName": "Leadset1",
+                    "createdDate": "",
+                    "createdBy": "cp0665ns01.admin",
+                    "operationalState": null,
+                    "category": null,
+                    "owningService": null,
+                    "alarmSetTime": null
+                },
+                "location": {},
+                "locationCooridnates": [],
+                "_type": "cssLink",
+                "child": [
+                    "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                    "bffd450e-6981-41d7-a37f-bba31128c8be"
+                ],
+                "parent": [
+                    "c232ab6c-f7bc-4889-9cbc-293b297770bc"
+                ],
+                "sibling": [],
+                "attributeview": {
+                    "name": "Leadset1",
+                    "summary": {
+                        "kind": "serverTrailGroup"
+                    },
+                    "attributes": {
+                        "summary": {
+                            "localName": "Leadset1",
+                            "globalName": "Leadset1",
+                            "kind": "serverTrailGroup"
+                        },
+                        "system": {
+                            "createdDate": "",
+                            "updatedBy": "cp0665ns01.admin",
+                            "createdBy": "cp0665ns01.admin",
+                            "updatedDate": ""
+                        },
+                        "properties": {
+                            "@referredType": "physicalLink",
+                            "collectionTime": null,
+                            "displayName": "Leadset1",
+                            "physicalLinkTypeOther": null,
+                            "@type": "physicalLink",
+                            "description": null,
+                            "usageState": null,
+                            "powerState": null,
+                            "owningServiceConsumer": null,
+                            "administrativeState": null,
+                            "vendor": null,
+                            "context": null,
+                            "model": null,
+                            "id": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                            "place": null,
+                            "_version": "2",
+                            "owningCustomer": null,
+                            "alarmSeverity": null,
+                            "lifecycleState": null,
+                            "schemaVersion": "0",
+                            "serialNumber": null,
+                            "containingDevice": null,
+                            "physicalLinkType": null,
+                            "containing": null,
+                            "reconSource": null,
+                            "discoveredName": null,
+                            "version": null,
+                            "operationalState": null,
+                            "category": null,
+                            "owningService": null,
+                            "alarmSetTime": null
+                        }
+                    }
+                },
+                "augmentedData": {}
+            }
+        },
+        "edges": {
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e::59f97d38-0158-4d40-aef6-476f6b70445c": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "to": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe::b428d00d-4540-4d2e-9821-fe1c11efdb9e": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "to": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "15d030d1-158e-47cd-b50b-9bcaf2b8e735::d5cabd1d-f06a-48b3-a17c-fe637354c7c4": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+                "to": "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::bffd450e-6981-41d7-a37f-bba31128c8be": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "to": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::8987971f-be37-4ce3-ac10-db19af700498": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "to": "8987971f-be37-4ce3-ac10-db19af700498",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "8987971f-be37-4ce3-ac10-db19af700498::d2b7a3c1-2b5b-4d9f-894b-8c22168b0648": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "8987971f-be37-4ce3-ac10-db19af700498",
+                "to": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "c32c450a-18d2-4a83-bdeb-24370242f76d::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "c32c450a-18d2-4a83-bdeb-24370242f76d::8987971f-be37-4ce3-ac10-db19af700498": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                "to": "8987971f-be37-4ce3-ac10-db19af700498",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "f7302042-70a2-48d7-b203-e1618ad560cd::85d7fa54-9699-4e25-be69-4f35850ec163": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "f7302042-70a2-48d7-b203-e1618ad560cd",
+                "to": "85d7fa54-9699-4e25-be69-4f35850ec163",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "8e683f26-df4d-4769-aa55-df108073a5af::59f97d38-0158-4d40-aef6-476f6b70445c": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "8e683f26-df4d-4769-aa55-df108073a5af",
+                "to": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "8e683f26-df4d-4769-aa55-df108073a5af::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "8e683f26-df4d-4769-aa55-df108073a5af",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "8e683f26-df4d-4769-aa55-df108073a5af::c5b34f7a-b041-49c0-a2c6-a871adb35bab": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "8e683f26-df4d-4769-aa55-df108073a5af",
+                "to": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab::8e683f26-df4d-4769-aa55-df108073a5af": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "to": "8e683f26-df4d-4769-aa55-df108073a5af",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab::30f08fe6-1d22-4e43-a387-049d7e1c4599": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "to": "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "30f08fe6-1d22-4e43-a387-049d7e1c4599::c5b34f7a-b041-49c0-a2c6-a871adb35bab": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                "to": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::91b41019-54a8-4700-9d26-6f652342e12a": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "to": "91b41019-54a8-4700-9d26-6f652342e12a",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::30f08fe6-1d22-4e43-a387-049d7e1c4599": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "to": "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "30f08fe6-1d22-4e43-a387-049d7e1c4599::ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                "to": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "91aacf2b-d0e8-4989-afd2-7f972bea8bef::30f08fe6-1d22-4e43-a387-049d7e1c4599": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+                "to": "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "f7302042-70a2-48d7-b203-e1618ad560cd::91aacf2b-d0e8-4989-afd2-7f972bea8bef": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "f7302042-70a2-48d7-b203-e1618ad560cd",
+                "to": "91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "85d7fa54-9699-4e25-be69-4f35850ec163::f7302042-70a2-48d7-b203-e1618ad560cd": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "85d7fa54-9699-4e25-be69-4f35850ec163",
+                "to": "f7302042-70a2-48d7-b203-e1618ad560cd",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "85d7fa54-9699-4e25-be69-4f35850ec163::91b41019-54a8-4700-9d26-6f652342e12a": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "85d7fa54-9699-4e25-be69-4f35850ec163",
+                "to": "91b41019-54a8-4700-9d26-6f652342e12a",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "91b41019-54a8-4700-9d26-6f652342e12a::85d7fa54-9699-4e25-be69-4f35850ec163": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "91b41019-54a8-4700-9d26-6f652342e12a",
+                "to": "85d7fa54-9699-4e25-be69-4f35850ec163",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "91b41019-54a8-4700-9d26-6f652342e12a::ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "91b41019-54a8-4700-9d26-6f652342e12a",
+                "to": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "91b41019-54a8-4700-9d26-6f652342e12a::c32c450a-18d2-4a83-bdeb-24370242f76d": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "91b41019-54a8-4700-9d26-6f652342e12a",
+                "to": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "c32c450a-18d2-4a83-bdeb-24370242f76d::91b41019-54a8-4700-9d26-6f652342e12a": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                "to": "91b41019-54a8-4700-9d26-6f652342e12a",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "8987971f-be37-4ce3-ac10-db19af700498::c32c450a-18d2-4a83-bdeb-24370242f76d": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "8987971f-be37-4ce3-ac10-db19af700498",
+                "to": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe::8987971f-be37-4ce3-ac10-db19af700498": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+                "to": "8987971f-be37-4ce3-ac10-db19af700498",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "15d030d1-158e-47cd-b50b-9bcaf2b8e735::77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+                "to": "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "d5cabd1d-f06a-48b3-a17c-fe637354c7c4::15d030d1-158e-47cd-b50b-9bcaf2b8e735": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+                "to": "15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "d5cabd1d-f06a-48b3-a17c-fe637354c7c4::bffd450e-6981-41d7-a37f-bba31128c8be": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+                "to": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "bffd450e-6981-41d7-a37f-bba31128c8be::d5cabd1d-f06a-48b3-a17c-fe637354c7c4": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                "to": "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONTAINS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONTAINS",
+                    "displayName": "CONTAINS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "bffd450e-6981-41d7-a37f-bba31128c8be::b7c11258-b62b-454a-807b-a6bf2e756bbe": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                "to": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "bffd450e-6981-41d7-a37f-bba31128c8be::d2b7a3c1-2b5b-4d9f-894b-8c22168b0648": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                "to": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe::bffd450e-6981-41d7-a37f-bba31128c8be": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "to": "bffd450e-6981-41d7-a37f-bba31128c8be",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::b7c11258-b62b-454a-807b-a6bf2e756bbe": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::c5b34f7a-b041-49c0-a2c6-a871adb35bab": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::d2b7a3c1-2b5b-4d9f-894b-8c22168b0648": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::c32c450a-18d2-4a83-bdeb-24370242f76d": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "c32c450a-18d2-4a83-bdeb-24370242f76d",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::b428d00d-4540-4d2e-9821-fe1c11efdb9e": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::8e683f26-df4d-4769-aa55-df108073a5af": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "8e683f26-df4d-4769-aa55-df108073a5af",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::59f97d38-0158-4d40-aef6-476f6b70445c": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "to": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "UTILIZES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "UTILIZES",
+                    "displayName": "UTILIZES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e::b7c11258-b62b-454a-807b-a6bf2e756bbe": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "to": "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "CONNECTS"
+                ],
+                "direction": "INCOMING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "CONNECTS",
+                    "displayName": "CONNECTS",
+                    "direction": "INCOMING"
+                },
+                "proximity": null
+            },
+            "59f97d38-0158-4d40-aef6-476f6b70445c::b428d00d-4540-4d2e-9821-fe1c11efdb9e": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                "to": "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "59f97d38-0158-4d40-aef6-476f6b70445c::8e683f26-df4d-4769-aa55-df108073a5af": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                "to": "8e683f26-df4d-4769-aa55-df108073a5af",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "USES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "USES",
+                    "displayName": "USES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            },
+            "59f97d38-0158-4d40-aef6-476f6b70445c::c232ab6c-f7bc-4889-9cbc-293b297770bc": {
+                "_type": "default_edge",
+                "attributes": {},
+                "from": "59f97d38-0158-4d40-aef6-476f6b70445c",
+                "to": "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "directed": false,
+                "attributeview": null,
+                "relations": [
+                    "UTILIZES"
+                ],
+                "direction": "OUTGOING",
+                "isRich": false,
+                "isMultiselect": null,
+                "fieldName": null,
+                "relation": {
+                    "name": "UTILIZES",
+                    "displayName": "UTILIZES",
+                    "direction": "OUTGOING"
+                },
+                "proximity": null
+            }
+        },
+        "adjacencyList": {
+            "59f97d38-0158-4d40-aef6-476f6b70445c": [
+                "59f97d38-0158-4d40-aef6-476f6b70445c::8e683f26-df4d-4769-aa55-df108073a5af",
+                "59f97d38-0158-4d40-aef6-476f6b70445c::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+                "59f97d38-0158-4d40-aef6-476f6b70445c::b428d00d-4540-4d2e-9821-fe1c11efdb9e"
+            ],
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc": [
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc::c32c450a-18d2-4a83-bdeb-24370242f76d",
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc::8e683f26-df4d-4769-aa55-df108073a5af",
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc::c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc::ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc::d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc::b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc::b428d00d-4540-4d2e-9821-fe1c11efdb9e"
+            ],
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e": [],
+            "d5cabd1d-f06a-48b3-a17c-fe637354c7c4": [
+                "d5cabd1d-f06a-48b3-a17c-fe637354c7c4::bffd450e-6981-41d7-a37f-bba31128c8be"
+            ],
+            "bffd450e-6981-41d7-a37f-bba31128c8be": [],
+            "8987971f-be37-4ce3-ac10-db19af700498": [],
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648": [
+                "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::8987971f-be37-4ce3-ac10-db19af700498",
+                "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::bffd450e-6981-41d7-a37f-bba31128c8be"
+            ],
+            "85d7fa54-9699-4e25-be69-4f35850ec163": [
+                "85d7fa54-9699-4e25-be69-4f35850ec163::91b41019-54a8-4700-9d26-6f652342e12a"
+            ],
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab": [
+                "c5b34f7a-b041-49c0-a2c6-a871adb35bab::8e683f26-df4d-4769-aa55-df108073a5af",
+                "c5b34f7a-b041-49c0-a2c6-a871adb35bab::30f08fe6-1d22-4e43-a387-049d7e1c4599"
+            ],
+            "8e683f26-df4d-4769-aa55-df108073a5af": [],
+            "30f08fe6-1d22-4e43-a387-049d7e1c4599": [],
+            "91b41019-54a8-4700-9d26-6f652342e12a": [],
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9": [
+                "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::91b41019-54a8-4700-9d26-6f652342e12a",
+                "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::30f08fe6-1d22-4e43-a387-049d7e1c4599"
+            ],
+            "91aacf2b-d0e8-4989-afd2-7f972bea8bef": [
+                "91aacf2b-d0e8-4989-afd2-7f972bea8bef::30f08fe6-1d22-4e43-a387-049d7e1c4599"
+            ],
+            "f7302042-70a2-48d7-b203-e1618ad560cd": [
+                "f7302042-70a2-48d7-b203-e1618ad560cd::91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+                "f7302042-70a2-48d7-b203-e1618ad560cd::85d7fa54-9699-4e25-be69-4f35850ec163"
+            ],
+            "c32c450a-18d2-4a83-bdeb-24370242f76d": [
+                "c32c450a-18d2-4a83-bdeb-24370242f76d::8987971f-be37-4ce3-ac10-db19af700498",
+                "c32c450a-18d2-4a83-bdeb-24370242f76d::91b41019-54a8-4700-9d26-6f652342e12a"
+            ],
+            "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe": [
+                "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe::8987971f-be37-4ce3-ac10-db19af700498"
+            ],
+            "15d030d1-158e-47cd-b50b-9bcaf2b8e735": [
+                "15d030d1-158e-47cd-b50b-9bcaf2b8e735::77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+                "15d030d1-158e-47cd-b50b-9bcaf2b8e735::d5cabd1d-f06a-48b3-a17c-fe637354c7c4"
+            ],
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe": [
+                "b7c11258-b62b-454a-807b-a6bf2e756bbe::b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "b7c11258-b62b-454a-807b-a6bf2e756bbe::bffd450e-6981-41d7-a37f-bba31128c8be"
+            ]
+        }
+    },
+    "diagraphView": {
+        "nodes": [
+            "59f97d38-0158-4d40-aef6-476f6b70445c",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+            "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+            "bffd450e-6981-41d7-a37f-bba31128c8be",
+            "8987971f-be37-4ce3-ac10-db19af700498",
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+            "85d7fa54-9699-4e25-be69-4f35850ec163",
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+            "8e683f26-df4d-4769-aa55-df108073a5af",
+            "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+            "91b41019-54a8-4700-9d26-6f652342e12a",
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+            "91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+            "f7302042-70a2-48d7-b203-e1618ad560cd",
+            "c32c450a-18d2-4a83-bdeb-24370242f76d",
+            "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+            "15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe"
+        ],
+        "edges": [
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e::59f97d38-0158-4d40-aef6-476f6b70445c",
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe::b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+            "15d030d1-158e-47cd-b50b-9bcaf2b8e735::d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::bffd450e-6981-41d7-a37f-bba31128c8be",
+            "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648::8987971f-be37-4ce3-ac10-db19af700498",
+            "8987971f-be37-4ce3-ac10-db19af700498::d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+            "c32c450a-18d2-4a83-bdeb-24370242f76d::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "c32c450a-18d2-4a83-bdeb-24370242f76d::8987971f-be37-4ce3-ac10-db19af700498",
+            "f7302042-70a2-48d7-b203-e1618ad560cd::85d7fa54-9699-4e25-be69-4f35850ec163",
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "8e683f26-df4d-4769-aa55-df108073a5af::59f97d38-0158-4d40-aef6-476f6b70445c",
+            "8e683f26-df4d-4769-aa55-df108073a5af::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "8e683f26-df4d-4769-aa55-df108073a5af::c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab::8e683f26-df4d-4769-aa55-df108073a5af",
+            "c5b34f7a-b041-49c0-a2c6-a871adb35bab::30f08fe6-1d22-4e43-a387-049d7e1c4599",
+            "30f08fe6-1d22-4e43-a387-049d7e1c4599::c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::91b41019-54a8-4700-9d26-6f652342e12a",
+            "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9::30f08fe6-1d22-4e43-a387-049d7e1c4599",
+            "30f08fe6-1d22-4e43-a387-049d7e1c4599::ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+            "91aacf2b-d0e8-4989-afd2-7f972bea8bef::30f08fe6-1d22-4e43-a387-049d7e1c4599",
+            "f7302042-70a2-48d7-b203-e1618ad560cd::91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+            "85d7fa54-9699-4e25-be69-4f35850ec163::f7302042-70a2-48d7-b203-e1618ad560cd",
+            "85d7fa54-9699-4e25-be69-4f35850ec163::91b41019-54a8-4700-9d26-6f652342e12a",
+            "91b41019-54a8-4700-9d26-6f652342e12a::85d7fa54-9699-4e25-be69-4f35850ec163",
+            "91b41019-54a8-4700-9d26-6f652342e12a::ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+            "91b41019-54a8-4700-9d26-6f652342e12a::c32c450a-18d2-4a83-bdeb-24370242f76d",
+            "c32c450a-18d2-4a83-bdeb-24370242f76d::91b41019-54a8-4700-9d26-6f652342e12a",
+            "8987971f-be37-4ce3-ac10-db19af700498::c32c450a-18d2-4a83-bdeb-24370242f76d",
+            "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe::8987971f-be37-4ce3-ac10-db19af700498",
+            "15d030d1-158e-47cd-b50b-9bcaf2b8e735::77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+            "d5cabd1d-f06a-48b3-a17c-fe637354c7c4::15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+            "d5cabd1d-f06a-48b3-a17c-fe637354c7c4::bffd450e-6981-41d7-a37f-bba31128c8be",
+            "bffd450e-6981-41d7-a37f-bba31128c8be::d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+            "bffd450e-6981-41d7-a37f-bba31128c8be::b7c11258-b62b-454a-807b-a6bf2e756bbe",
+            "bffd450e-6981-41d7-a37f-bba31128c8be::d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+            "b7c11258-b62b-454a-807b-a6bf2e756bbe::bffd450e-6981-41d7-a37f-bba31128c8be",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::b7c11258-b62b-454a-807b-a6bf2e756bbe",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::c32c450a-18d2-4a83-bdeb-24370242f76d",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::8e683f26-df4d-4769-aa55-df108073a5af",
+            "c232ab6c-f7bc-4889-9cbc-293b297770bc::59f97d38-0158-4d40-aef6-476f6b70445c",
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e::c232ab6c-f7bc-4889-9cbc-293b297770bc",
+            "b428d00d-4540-4d2e-9821-fe1c11efdb9e::b7c11258-b62b-454a-807b-a6bf2e756bbe",
+            "59f97d38-0158-4d40-aef6-476f6b70445c::b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+            "59f97d38-0158-4d40-aef6-476f6b70445c::8e683f26-df4d-4769-aa55-df108073a5af",
+            "59f97d38-0158-4d40-aef6-476f6b70445c::c232ab6c-f7bc-4889-9cbc-293b297770bc"
+        ],
+        "depictionLevel": {
+            "0": [
+                "59f97d38-0158-4d40-aef6-476f6b70445c"
+            ],
+            "1": [
+                "b428d00d-4540-4d2e-9821-fe1c11efdb9e",
+                "8e683f26-df4d-4769-aa55-df108073a5af",
+                "c232ab6c-f7bc-4889-9cbc-293b297770bc"
+            ],
+            "2": [
+                "b7c11258-b62b-454a-807b-a6bf2e756bbe",
+                "c5b34f7a-b041-49c0-a2c6-a871adb35bab",
+                "d2b7a3c1-2b5b-4d9f-894b-8c22168b0648",
+                "ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9",
+                "c32c450a-18d2-4a83-bdeb-24370242f76d"
+            ],
+            "3": [
+                "bffd450e-6981-41d7-a37f-bba31128c8be",
+                "30f08fe6-1d22-4e43-a387-049d7e1c4599",
+                "8987971f-be37-4ce3-ac10-db19af700498",
+                "91b41019-54a8-4700-9d26-6f652342e12a"
+            ],
+            "4": [
+                "d5cabd1d-f06a-48b3-a17c-fe637354c7c4",
+                "91aacf2b-d0e8-4989-afd2-7f972bea8bef",
+                "77ef88bc-d5f3-4a9a-a2cd-80b46d2398fe",
+                "85d7fa54-9699-4e25-be69-4f35850ec163"
+            ],
+            "5": [
+                "15d030d1-158e-47cd-b50b-9bcaf2b8e735",
+                "f7302042-70a2-48d7-b203-e1618ad560cd"
+            ]
+        },
+        "nodeViewMetadata": {
+            "default_node": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": "rectangle",
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": null,
+                "background-color": "#62AC00",
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": null,
+                "background-position-x": null,
+                "background-position-y": null,
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssNodeWrapper_collapse": {
+                "vector": null,
+                "height": "50px",
+                "width": "200px",
+                "shape": "rectangle",
+                "opacity": null,
+                "border": null,
+                "color": "#979797",
+                "label": "data(label)",
+                "font-family": "Nokia Pure Text Regular",
+                "min-zoomed-font-size": null,
+                "background-image": null,
+                "background-color": "#70c3b2",
+                "border-width": "1px",
+                "border-color": "#ccc",
+                "text-halign": "center",
+                "text-valign": "center",
+                "background-image-opacity": "0.5",
+                "background-fit": null,
+                "background-position-x": null,
+                "background-position-y": null,
+                "font-size": "14px",
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssService": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_service.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "8px",
+                "background-position-y": "8px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssPort": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_ports.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "8px",
+                "background-position-y": "8px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssEntity": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_Equipment.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "8px",
+                "background-position-y": "8px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssLocation": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_location.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "8px",
+                "background-position-y": "8px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssConfiguration": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_configuration.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": null,
+                "background-position-y": null,
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssConnection": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_connection.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": null,
+                "background-position-y": null,
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssCustomer": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_customer.svg",
+                "background-color": "#124191",
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": null,
+                "background-position-y": null,
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssParty": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_customer.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": null,
+                "background-position-y": null,
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssDevice": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_device.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "8px",
+                "background-position-y": "8px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssPhysicalComponent": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_ne_router.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "8px",
+                "background-position-y": "8px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssLink": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_link.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "8px",
+                "background-position-y": "8px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            },
+            "cssSAP": {
+                "vector": null,
+                "height": null,
+                "width": null,
+                "shape": null,
+                "opacity": null,
+                "border": null,
+                "color": null,
+                "label": null,
+                "font-family": null,
+                "min-zoomed-font-size": null,
+                "background-image": "ihub_sap.svg",
+                "background-color": null,
+                "border-width": null,
+                "border-color": null,
+                "text-halign": null,
+                "text-valign": null,
+                "background-image-opacity": null,
+                "background-fit": "cover",
+                "background-position-x": "5px",
+                "background-position-y": "5px",
+                "font-size": null,
+                "text-wrap": null,
+                "text-max-width": null
+            }
+        },
+        "edgeViewMetadata": {
+            "default_edge": {
+                "width": null,
+                "arrowhead": "",
+                "opacity": null,
+                "line-style": "",
+                "line-color": "",
+                "curve-style": null,
+                "target-arrow-shape": null
+            }
+        },
+        "nodeView": null,
+        "edgeView": null
+    },
+    "_id": "a9f6037c-be01-4804-89dc-c35d85f382a9",
+    "isLevellingAndOrderingApplied": false
+}
+
