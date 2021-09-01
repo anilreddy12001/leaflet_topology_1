@@ -382,28 +382,27 @@ UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[UIVDirecto
             }
             else{
                 //if no device details were found, copy the ePoints array to terminations.
-                UIVDirectory[item].terminations=UIVDirectory[item].ePoints;
+                UIVDirectory[item].terminations[0]=UIVDirectory[item].ePoints[0];
+                UIVDirectory[item].terminations[1]=UIVDirectory[item].ePoints[1];
             }
+            
         })
        // deviceMapping[item]=response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent;
     }
     if(UIVDirectory[item].ePoints && UIVDirectory[item].ePoints.length==2 && response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent.length>0){
         console.log('parent array:',response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent);
         Object.keys(response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[0]].parent).forEach((item3, parentIndex)=> {
-            console.log('parent array inside loop:',response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3],'@type:',response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].attributes['@type'] );
+            //console.log('parent array inside loop:',response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3],'@type:',response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].attributes['@type'] );
             if(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].attributes['@type']=='physicalDevice'){
-console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]]);
+//console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]]);
 UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]);
             }
             else if(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0] && response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0]].attributes['@type']=='physicalDevice' ){
-                console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0]]);
+                //console.log("parent found:",response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0]]);
                 //push parent into the terminations array.                
                 UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent[item3]].parent[0]);
             }
-            else{
-                //if no device details were found, copy the ePoints array to terminations.
-                UIVDirectory[item].terminations=UIVDirectory[item].ePoints;
-            }
+            
         })
         
        // deviceMapping[item]=response_UIV.diagraphModel.nodes[UIVDirectory[item].ePoints[1]].parent;
@@ -415,7 +414,7 @@ UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[UIVDirecto
 
             //trim(delete) cNodes which are not paths:
             Object.keys(UIVDirectory).forEach((item, index) => {
-                console.log(item);
+              
                 if (item != 'rootPathID') {
                     UIVDirectory[item].cNodes.forEach((cNode, i) => {
                         if (response_UIV.diagraphModel.nodes[cNode]._type != 'cssLink') {
@@ -423,6 +422,20 @@ UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[UIVDirecto
                         }
                     })
                 }
+
+                if(UIVDirectory[item].terminations && UIVDirectory[item].terminations.length>2){
+console.log("terminations for::",UIVDirectory[item]," terminations: ",UIVDirectory[item].terminations);
+                    //cc1:d2b7a3c1-2b5b-4d9f-894b-8c22168b0648
+                    
+                    UIVDirectory[item].terminations=[UIVDirectory[item].terminations[2],UIVDirectory[item].terminations[2]];
+                    //UIVDirectory[item].terminations.splice(UIVDirectory[item].terminations.length-1, 1);
+                    //cc2 id: ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9
+                    
+                }
+                //else if(item=="c5b34f7a-b041-49c0-a2c6-a871adb35bab"){
+                   //leadset2: c5b34f7a-b041-49c0-a2c6-a871adb35bab
+                   
+               // }
 
             })
             //Order cNodes and terminations
@@ -527,6 +540,66 @@ UIVDirectory[item].terminations.push(response_UIV.diagraphModel.nodes[UIVDirecto
         if (response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length - 3]) {
             UIVDirectory[response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length - 5][2]].cNodes = newCNodes;
         }
+        console.log("newCNodes:: ",newCNodes);
+        //order last layer terminations with multiple cross connects:
+        
+        var listOfCCTerminations=[];
+        var maxLevel=0;
+        Object.keys(UIVDirectory).forEach((id, index) => {
+//check for cross connects:
+            if(UIVDirectory[id].terminations && UIVDirectory[id].terminations.length==2 && UIVDirectory[id].terminations[0]==UIVDirectory[id].terminations[1] && listOfCCTerminations.indexOf(id+'::'+UIVDirectory[id].terminations[0])==-1){
+                console.log(id," :: ",UIVDirectory[id].terminations);
+                listOfCCTerminations.push(id+'::'+ UIVDirectory[id].terminations[0]);
+                if(UIVDirectory[id] && UIVDirectory[id].layer && UIVDirectory[id].layer>maxLevel){
+                    maxLevel=UIVDirectory[id].layer;
+                }
+            }
+            
+            
+        })
+        console.log("listOfCCTerminations:: ",listOfCCTerminations);
+        console.log("response_UIV:: ", response_UIV);
+            console.log("UIVDirectory:: ", UIVDirectory);
+            if(listOfCCTerminations){
+                //if any of the previous or later paths have same terminations as device, assign the termination:
+
+                Object.keys(UIVDirectory).forEach((id, index) => {
+                    //
+                })
+
+               
+
+            }
+            //for leadset1:
+            console.log("maxlevel:::",maxLevel);
+            console.log("rootTerminations",rootTerminations);
+            UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][0]].terminations[0]=rootTerminations[0];
+            if(response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length-1][0]!=UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][0]].terminations[0]){
+                UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][0]].terminations[1]=response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length-1][0];
+            }
+            //for leadset2:
+            UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][1]].terminations[1]=rootTerminations[1];
+
+            if(response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length-1][1]!=UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][0]].terminations[0]){
+                UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][response_UIV.diagraphView.depictionLevel[maxLevel].length-1]].terminations[0]=response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length-1][1];
+            }
+            //leadset1 and leadset2 terminations done.
+            //UIVDirectory["c32c450a-18d2-4a83-bdeb-24370242f76d"].terminations=["15d030d1-158e-47cd-b50b-9bcaf2b8e735","f7302042-70a2-48d7-b203-e1618ad560cd"];//physicallink1
+
+            UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][response_UIV.diagraphView.depictionLevel[maxLevel].length-1]].terminations[1]=response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length-1][1];
+
+            UIVDirectory[response_UIV.diagraphView.depictionLevel[maxLevel][response_UIV.diagraphView.depictionLevel[maxLevel].length-1]].terminations[0]=response_UIV.diagraphView.depictionLevel[Object.keys(response_UIV.diagraphView.depictionLevel).length-1][0];
+
+            
+
+        //UIVDirectory["b7c11258-b62b-454a-807b-a6bf2e756bbe"].terminations=["b428d00d-4540-4d2e-9821-fe1c11efdb9e","15d030d1-158e-47cd-b50b-9bcaf2b8e735"];//leadset1
+                  
+        //UIVDirectory["c5b34f7a-b041-49c0-a2c6-a871adb35bab"].terminations=["f7302042-70a2-48d7-b203-e1618ad560cd","8e683f26-df4d-4769-aa55-df108073a5af"];//leadset2
+        
+        //"ba26eb71-7ccf-4d0b-b527-4c0c1c6edcd9: ["f7302042-70a2-48d7-b203-e1618ad560cd","f7302042-70a2-48d7-b203-e1618ad560cd"]//cc2
+        //"d2b7a3c1-2b5b-4d9f-894b-8c22168b0648":["15d030d1-158e-47cd-b50b-9bcaf2b8e735","15d030d1-158e-47cd-b50b-9bcaf2b8e735"]  //cc1
+        
+        //UIVDirectory["c32c450a-18d2-4a83-bdeb-24370242f76d"].terminations[1]="8e683f26-df4d-4769-aa55-df108073a5af";
 
         //var finalLayerTerminations = pathId: [termination[0], termination[1]]; //rootTerminations[0];
         //  rootTerminations[0];

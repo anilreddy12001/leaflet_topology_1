@@ -1380,7 +1380,7 @@ console.log("path inside drawpathsv1: ",path);
         //                  'font-size': '24'}})
         // polyline.on("click", pathEvents.click);
         if(isPathBundle){
-            polyline.setText('', {repeat: false, center: true, offset: -8,
+            polyline.setText('', {repeat: false, center: true, offset: -40,
                 attributes: {'font-size': '12'}})
         }
         else{
@@ -1666,8 +1666,8 @@ var stateObjFromStatusPanelColor=stateObjFromStatusPanel?stateObjFromStatusPanel
     xmlns="http://www.w3.org/2000/svg" 
     xmlns:xlink="http://www.w3.org/1999/xlink" 
     x="0px" y="0px" 
-    viewBox="0 0 34 24"
-    style="enable-background:new 0 0 30 30;" 
+    viewBox="5 -6 34 2"
+    style="enable-background:new 0 0 30 30;height:10px" 
     xml:space="preserve"> 
 
     <g class="currentLayer" style="">                                
@@ -1682,7 +1682,7 @@ var stateObjFromStatusPanelColor=stateObjFromStatusPanel?stateObjFromStatusPanel
     </g>
 </svg>`
  }
-
+//0 0 34 24
  return new L.DivIcon({
     className: isShowLabel ? 'showLabel '+layerNo : ''+layerNo,
     html: `
@@ -1691,7 +1691,7 @@ var stateObjFromStatusPanelColor=stateObjFromStatusPanel?stateObjFromStatusPanel
     <div class="modalHeader">
 <div class="modalHeaderContent">
 <span class=`+itemFromDirectory.detail.UUID+`></span>
-<strong class="itemName"></strong><div class="itemsCount">`+itemFromDirectory.detail.displayName.slice(0, 11) +`</div><div class="statusInfo"><svg width="10" height="10" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="`+stateObjFromStatusPanelColor+`"></circle></svg><div class="name">`+stateObjFromStatusPanelText+`</div></div></div><div class="modalClose">
+<strong class="itemName">`+itemFromDirectory.detail['@type']+`</strong><div class="itemsCount">`+itemFromDirectory.detail.displayName.slice(0, 11) +`</div><div class="statusInfo"><svg width="10" height="10" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="`+stateObjFromStatusPanelColor+`"></circle></svg><div class="name">`+stateObjFromStatusPanelText+`</div></div></div><div class="modalClose">
 </div>
 </div>
 </div>
