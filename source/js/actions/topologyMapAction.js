@@ -164,6 +164,10 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                     console.log("root path: ", response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes['globalName']);
                     if (response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type == 'cssPort' && rootTerminations.length < 2) {
                         rootTerminations.push(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes['id']);
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.CreatedByUserId  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.createdBy;
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AdministrativeState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.administrativeState;
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.OperationalState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.operationalState;
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AORAlarmState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.alarmSeverity;
                     }
 
                     Object.keys(response_UIV.diagraphView.depictionLevel).forEach((item2, innerIndex) => { if(response_UIV.diagraphView.depictionLevel[item2].indexOf(response_UIV.diagraphModel.edges[item].from)!=-1){level= innerIndex}});
@@ -183,6 +187,11 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                         layer: level,
                         _type: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from]._type
                     }
+                    UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.CreatedByUserId  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.createdBy;
+                    UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.AdministrativeState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.administrativeState;
+                    UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.OperationalState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.operationalState;
+                    UIVDirectory[response_UIV.diagraphModel.edges[item].from].state.AORAlarmState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].from].attributes.alarmSeverity;
+
                 }
                     if(response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type=='cssPort' || response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type=='cssPhysicalComponent'){
                         UIVDirectory[response_UIV.diagraphModel.edges[item].to] = {
@@ -197,6 +206,10 @@ export const getTopologyData = (axiosdata, typeId, props) => {
                             layer: level,
                             _type: response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to]._type
                         }
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.CreatedByUserId  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.createdBy;
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AdministrativeState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.administrativeState;
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.OperationalState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.operationalState;
+                        UIVDirectory[response_UIV.diagraphModel.edges[item].to].state.AORAlarmState  = response_UIV.diagraphModel.nodes[response_UIV.diagraphModel.edges[item].to].attributes.alarmSeverity;
                     }
                     
 
